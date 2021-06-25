@@ -8,7 +8,8 @@
     "start": "cross-env NODE=ENV=production node index.js",
     "dev": "cross-env NODE=ENV=development nodemon index.js",
     "test": "cross-env NODE=ENV=test jest --verbose --silent",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "start:test": "cross-env NODE_ENV=test node index.js"
   },
   "keywords": [],
   "author": "",
